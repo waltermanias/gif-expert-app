@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const GifGridItem = ({ title, id, url }) => {
+const GifGridItem = ({ title, url }) => {
   return (
     <div className="card animate__animated animate__bounce animate__delay-2s">
       <img src={url} alt={"imagen"} />
@@ -12,7 +12,6 @@ const GifGridItem = ({ title, id, url }) => {
 
 GifGridItem.propTypes = {
   title: PropTypes.string.isRequired,
-  id: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
 };
 

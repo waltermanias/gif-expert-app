@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifGrid tests should render items 1`] = `
+<Fragment>
+  <h3>
+    One Punch
+  </h3>
+  Data cargada
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="test"
+      url="http://localhost:3000/image.jpg"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`GifGrid tests should render the component 1`] = `
+<Fragment>
+  <h3>
+    One Punch
+  </h3>
+  Cargando
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
